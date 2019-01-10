@@ -5,3 +5,8 @@ h1 {
 p {
   width: 70%;
 }
+
+p.rating {
+  font-weight: bold;
+  font-size: 20px;
+}
