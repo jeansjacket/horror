@@ -10,3 +10,8 @@ p.rating {
   font-weight: bold;
   font-size: 20px;
 }
+
+img.resize {
+  max-width:30%;
+  max-height:30%;
+}
