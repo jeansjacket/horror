@@ -16,6 +16,7 @@ body {
   font-weight: lighter;
 }
 
+
 p {
   width: 70%;
   font-family: 'Work Sans', sans-serif;
@@ -27,12 +28,21 @@ p.rating {
 }
 
 img.resize-30 {
-  max-width:30%;
-  max-height:30%;
+  max-width: 30%;
+  max-height: 30%;
 }
 
-.title {
+img.resize-40 {
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.movie-title {
   font-style: italic;
+}
+
+.subhead {
+  font-size: 30px;
 }
 
 .inline-rating {
