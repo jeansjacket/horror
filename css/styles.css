@@ -2,6 +2,7 @@ h1 {
   color: red;
   font-family: 'Alegreya', serif;
   font-size: 50px;
+  text-align: center;
 }
 
 h2 {
@@ -26,7 +27,8 @@ p.rating {
 }
 
 p.subhead {
-  font-size: 40px;
+  font-size: 30px;
+  text-align: center;
 }
 
 img.resize-30 {
