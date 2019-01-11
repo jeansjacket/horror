@@ -1,9 +1,24 @@
 h1 {
   color: red;
+  font-family: 'Alegreya', serif;
+  font-size: 50px;
+}
+
+h2 {
+  color: red;
+  font-family: 'Alegreya', serif;
+  font-size: 40px;
+}
+
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: lighter;
 }
 
 p {
   width: 70%;
+  font-family: 'Work Sans', sans-serif;
 }
 
 p.rating {
@@ -11,11 +26,15 @@ p.rating {
   font-size: 20px;
 }
 
-img.resize {
+img.resize-30 {
   max-width:30%;
   max-height:30%;
 }
 
 .title {
+  font-style: italic;
+}
+
+.inline-rating {
   font-style: italic;
 }
