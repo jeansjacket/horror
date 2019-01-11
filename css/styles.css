@@ -10,12 +10,10 @@ h2 {
   font-size: 40px;
 }
 
-
 body {
   font-family: 'Work Sans', sans-serif;
   font-weight: lighter;
 }
-
 
 p {
   width: 70%;
@@ -25,6 +23,11 @@ p {
 p.rating {
   font-weight: bold;
   font-size: 20px;
+}
+
+img.resize-30 {
+  max-width:30%;
+  max-height:30%;
 }
 
 img.resize-30 {
@@ -41,9 +44,6 @@ img.resize-40 {
   font-style: italic;
 }
 
-.subhead {
-  font-size: 40px;
-}
 
 .inline-rating {
   font-style: italic;
