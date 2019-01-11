@@ -25,6 +25,10 @@ p.rating {
   font-size: 20px;
 }
 
+p.subhead {
+  font-size: 40px;
+}
+
 img.resize-30 {
   max-width:30%;
   max-height:30%;
