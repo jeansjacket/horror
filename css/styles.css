@@ -46,10 +46,8 @@ p.subhead {
   display: grid;
   padding: 10%;
   padding-top: 5%;
-  grid-column-gap: 10%;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  min-width: 250px;
-  max-width: 1000px;
+  grid-column-gap: 15%;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
 }
 
 img.gallery {
@@ -70,4 +68,23 @@ img.gallery {
 .item {
   font-size: 13px;
   padding-bottom: 15%;
+}
+
+/*layout styles*/
+
+@media (min-width: 620px) {
+  main {
+    column-count: 2;
+    column-gap: 20px;
+  }
+
+  section {
+    break-inside: avoid;
+  }
+}
+
+@media (min-width: 960px) {
+  main {
+     column-count: 3;
+  }
 }
