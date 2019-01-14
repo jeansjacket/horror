@@ -8,7 +8,7 @@ h1 {
 h2 {
   color: red;
   font-family: 'Alegreya', serif;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 body {
@@ -17,41 +17,47 @@ body {
 }
 
 p {
-  width: 70%;
   font-family: 'Work Sans', sans-serif;
+  line-height: 1.3em;
 }
 
 p.rating {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 p.subhead {
   width: 100%;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 
-img.resize-30 {
-  max-width:30%;
-  max-height:30%;
-}
-
-img.resize-30 {
-  max-width: 30%;
-  max-height: 30%;
-}
-
-img.resize-40 {
-  max-width: 40%;
-  max-height: 40%;
-}
 
 .movie-title {
   font-style: italic;
 }
 
-
 .inline-rating {
   font-style: italic;
+}
+
+.gallery {
+  display: grid;
+  padding-top: 5%;
+  padding-left: 10%;
+  grid-column-gap: 100px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+img.gallery {
+  max-height: 200px;
+  padding-top: 5%;
+  padding-left: 0px;
+  padding-bottom: 1%;
+}
+
+.item {
+  width = 100%;
+  font-size: 13px;
+  padding-bottom: 15%;
 }
